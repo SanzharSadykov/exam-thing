@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #f7f7f7;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.singleBlock {
+    width: 23.7%;
+}
+
+.selectedImage{
+    border: 2px solid orange;
+}
